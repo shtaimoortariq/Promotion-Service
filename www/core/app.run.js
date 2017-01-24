@@ -5,9 +5,9 @@
     .module('app')
     .run(runBlock);
 
-  runBlock.$inject = ['$ionicPlatform', '$state'];
+  runBlock.$inject = ['$ionicPlatform', '$state', '$ionicPush'];
 
-  function runBlock($ionicPlatform, $state) {
+  function runBlock($ionicPlatform, $state, $ionicPush) {
 
     $ionicPlatform.ready(function() {
 
@@ -32,6 +32,11 @@
         // org.apache.cordova.statusbar required
         StatusBar.styleLightContent();
       }
+      $ionicPush.register().then(function(t) {
+        return $ionicPush.saveToken(t);
+      }).then(function(t) {
+        console.log('Token saved:', t.token);
+      });
 
     });
   }

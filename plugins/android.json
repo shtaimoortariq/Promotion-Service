@@ -1,0 +1,55 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-camera": {
+            "PACKAGE_NAME": "com.ionicframework.promotionservice732243"
+        },
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "com.ionicframework.promotionservice732243"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "com.ionicframework.promotionservice732243"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.ionicframework.promotionservice732243"
+        },
+        "cordova-plugin-email-composer": {
+            "PACKAGE_NAME": "com.ionicframework.promotionservice732243"
+        },
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "com.ionicframework.promotionservice732243"
+        },
+        "cordova-plugin-geolocation": {
+            "PACKAGE_NAME": "com.ionicframework.promotionservice732243"
+        },
+        "cordova-plugin-image-picker": {
+            "PACKAGE_NAME": "com.ionicframework.promotionservice732243"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "com.ionicframework.promotionservice732243"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "com.ionicframework.promotionservice732243"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.ionicframework.promotionservice732243"
+        },
+        "cordova-plugin-x-toast": {
+            "PACKAGE_NAME": "com.ionicframework.promotionservice732243"
+        },
+        "ionic-plugin-keyboard": {
+            "PACKAGE_NAME": "com.ionicframework.promotionservice732243"
+        },
+        "phonegap-plugin-push": {
+            "SENDER_ID": "477488430513",
+            "PACKAGE_NAME": "com.ionicframework.promotionservice732243"
+        }
+    },
+    "dependent_plugins": {}
+}
